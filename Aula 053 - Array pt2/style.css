@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: large;
+}
+
+.caixa{
+    border: 5px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+main input{
+    background-color: rgb(228, 228, 228);
+    border:none;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+main label{
+    margin: 0px 5px;
+}
+
+.botoes button{
+    padding: 5px 5px;
+    width: 50px;
+    height: 40px;
+    margin: 5px;
+}
+
+main p{
+    margin: 0px 5px;
+}
