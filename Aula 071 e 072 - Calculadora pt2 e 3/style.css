@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: large;
+    border:none;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.calc{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    flex-direction: column;
+    background-color: #eee;
+    border: 3px solid #bbb;
+    width: 310px;
+    border-radius: 5px;
+}
+
+/* TÍTULO */
+.div_nome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+}
+
+.div_teclas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    flex-wrap:wrap;
+}
+
+.tecla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(201, 199, 199);
+    border: 3px solid rgb(167, 167, 167);
+    font-weight: bold;
+    width: 70px;
+    height: 70px;
+    cursor:pointer;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+.tecladOp{
+    background-color: #f44 !important;
+    border-color: #800 !important;
+}
+
+/* DISPLAY */
+
+.div_display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+}
+
+.display{
+    width: 290px;
+    background-color: #8a8;
+    text-align: right;
+    padding: 5px;
+    font-family: monospace;
+    font-size: larger;
+}
