@@ -1,0 +1,14 @@
+.olhos{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+   width: 600px;
+   height: 200px;
+}
+
+.olho{
+   width: 300px;
+   height: 200px;
+   transform-origin: center center;
+}
