@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Javascript</title>
+  </head>
+  <body>
+    <canvas id="grafico1" style="width: 500px; height: 500px"></canvas>
+
+    <script>
+      const ctx = document.getElementById('grafico1');
+      let labelsX = ["Brasil", "EUA", "África", "Japão"]
+      let valores = [10,20,30,40]
+
+      new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: labelsX,
+          datasets: [{
+            label: '# of Votes',
+            data: valores,
+            borderWidth: 1
+          }]
+        },
+        options: {
+          scales: {
+            y: {
+              beginAtZero: true
+            }
+          }
+        }
+      });
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
